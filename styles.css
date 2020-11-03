@@ -1,0 +1,81 @@
+.red {
+    color: red;
+}
+
+
+body {
+    margin: 3%;
+    background-color: black;
+}
+
+
+#pagetitle {
+    text-align: center;
+    margin: 3%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: gold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main{
+    margin: 3%;
+    background-color: gold;
+    border: none 10px;
+    border-radius: 10px;
+}
+.album{
+    display: grid;
+    grid-template-columns: 20% 20% 15% 15% 15% 15%;
+    padding: 10px;
+    border-bottom: solid black 1px ;
+}
+.album div {
+    border: 1px none;
+    padding: 20px;
+    text-align: center;
+}
+.albumpic img {
+    width: 200px;
+    border: outset black 10px;
+}
+
+.heart img {
+    padding-top: 50%;
+    width: 50px;
+}
+
+.cancel img {
+    padding-top: 50%;
+    width: 50px;
+}
+
+.plusicon {
+    padding-top: 60%;
+    width: 30%;
+    border-style: none;
+}
+
+.minusicon {
+    width: 32%;
+}
+
+h3 {
+    padding-top: 30%;
+    font-size: 25px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.totalprice {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 10px;
+}
